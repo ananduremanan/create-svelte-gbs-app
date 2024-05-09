@@ -1,0 +1,25 @@
+{
+  "name": "create-svelte-gbs-app",
+  "version": "0.0.5",
+  "description": "Svelte-Kit boilerplate for GBS internal project distribution with pre-installed @grampro/svelte-block and tailwind set up",
+  "files": [
+    "index.js",
+    "boilerplate"
+  ],
+  "engines": {
+    "node": ">=17"
+  },
+  "bin": {
+    "create-svelte-gbs-app": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anandhu Remanan",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7"
+  }
+}
